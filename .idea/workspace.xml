@@ -97,6 +97,9 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -109,7 +112,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.QiuckSortKt">
+  <component name="RunManager" selected="Kotlin.BestTravelKt">
     <configuration name="BestTravelKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <option name="VM_PARAMETERS" />
@@ -151,9 +154,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.BestTravelKt" />
         <item itemvalue="Kotlin.QiuckSortKt" />
         <item itemvalue="Kotlin.SimpleTasksKt" />
-        <item itemvalue="Kotlin.BestTravelKt" />
       </list>
     </recent_temporary>
   </component>
