@@ -1,3 +1,5 @@
+package task
+
 import kotlin.math.sqrt
 
 fun main() {

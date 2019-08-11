@@ -1,3 +1,5 @@
+package sort
+
 fun main() {
     quickSort(listOf(2, 5, 3, 8, 9, 22, 11, 43, 12, 91, 88, 45, 422)).forEach {
         print("$it ")
