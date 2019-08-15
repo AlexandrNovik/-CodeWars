@@ -7,7 +7,6 @@ package task
     }
 */
 fun main() {
-
     println(decodeMorse("-..- -.-.- .   ."))
 }
 
