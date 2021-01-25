@@ -5,6 +5,17 @@ import kotlin.math.sqrt
 fun main() {
     println(predictAge(65, 60, 75, 55, 60, 63, 64, 45))
 }
+// -36, -45, 86, 8, -4, -40, -1, 22
+fun maxSequence(arr: List<Int>): Int {
+    var maxSum = 0
+    var sum = 0
+    for (eachNumber in arr) {
+        sum += eachNumber
+        maxSum = Math.max(sum, maxSum)
+        sum = Math.max(sum, 0)
+    }
+    return maxSum
+}
 
 fun minMax(word: String): String = word.slice(((word.length / 2) - ((word.length + 1) % 2))..(word.length / 2))
 
