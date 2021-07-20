@@ -1,6 +1,4 @@
 package task
 
-
 fun main() {
-    
 }
